@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/clientes.css">
+</head>
+
+<body>
+    <section class="container">
+        <h2>Hola <span>Nombre</span></h2>
+        <div class="container-clientes">
+            <div class="lista-clientes">
+                <h2>Clientes</h2>
+                <table>
+                    <thead class="tabla">
+                        <tr>
+                            <th>id</th>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Dni</th>
+                            <th>Telefóno</th>
+                            <th>Equipos</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabla">
+                        <tr>
+                            <td>1</td>
+                            <td>0000000000000000000000000</td>
+                            <td>0000000000000000000000000</td>
+                            <td>77210245</td>
+                            <td>98287554</td>
+                            <td>
+                                <a href="#">Crear</a>
+                                <a href="#">Mostrar</a>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="crear-cliente">
+                <form>
+                    <legend>Crear cliente</legend>
+                    <input type="text" placeholder="Nombres">
+                    <input type="text" placeholder="Apellidos">
+                    <input type="tel" placeholder="Teléfono">
+                    <input type="number" placeholder="DNI">
+                    <input type="button" value="Limpiar campos">
+                    <input type="submit" value="Crear">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

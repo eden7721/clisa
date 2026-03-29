@@ -1,0 +1,46 @@
+:root {
+    --font: "Montserrat", sans-serif;
+    --main-color: #fff;
+    --second-color: #28353b;
+    --third-color: #4A7183;
+    --bg-color: #061E29;
+    --bg-form-color: #103545;
+    --input-color: #11384a;
+    --box-shadow-1: -1px 8px 17px -12px #000000;
+    --box-shadow-2: -1px 8px 17px -12px #000000;
+    --gradient-color: linear-gradient(180deg, rgba(16, 53, 69, 1) 0%, rgba(7, 37, 50, 1) 100%);
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--bg-color);
+}
+h2 {
+    color: var(--main-color)
+}
+figure {
+    margin: 0;
+}
+.panel-container {
+    width: 90%;
+    margin: 0 auto;
+    color: var(--main-color);
+}
+.panel-container .panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card-panel {
+    margin: 1rem 1rem 1rem 0;
+    text-align: center;
+}
+.card-panel svg {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--bg-form-color);
+    background: var(--gradient-color);
+    -webkit-box-shadow: var(--box-shadow-1);
+    box-shadow: var(--box-shadow-2);
+}
