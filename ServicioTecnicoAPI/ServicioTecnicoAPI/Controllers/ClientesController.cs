@@ -19,11 +19,17 @@ namespace ServicioTecnicoAPI.Controllers
         }
         //GET
         [HttpGet]
-        public async Task<ActionResult<List<ClienteDTO>>> GetAll()
+        public async Task<ActionResult<ApiResponse<List<ClienteDTO>>>> GetAll(
+            [FromQuery] string? nombre)
         {
-            var clientes = await _context.Clientes
-                .Include(e => e.Equipos)
-                .ToListAsync();
+            var query = _context.Clientes
+                    .Include(c => c.Equipos)
+                    .AsQueryable();
+
+            if (!string.IsNullOrEmpty(nombre))
+                query = query.Where(q => q.Nombre.Contains(nombre));
+
+            var clientes = await query.ToListAsync();
 
             var clientesDTO = clientes.Select(c => new ClienteDTO
             {

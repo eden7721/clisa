@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "D:\\Clisa\\ServicioTecnicoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\ordenesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\controllers\\ordenesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\createordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\createordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\models\\ordenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\models\\ordenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\equipo\\createequipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\equipo\\createequipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\ordenesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\controllers\\ordenesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\createordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\createordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\equipo\\equipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\equipo\\equipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\equipo\\equipolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\equipo\\equipolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\cliente\\createclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\cliente\\createclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,20 +38,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Equipo.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\Equipo.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Models\\Equipo.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\Equipo.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Models\\Equipo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EquiposController.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAIwH8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T23:19:38.353Z",
+              "WhenOpened": "2026-04-03T00:19:10.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CreateOrdenServicioDTO.cs",
               "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
               "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
@@ -83,137 +59,60 @@
               "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:51:55.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrdenServicio.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\OrdenServicio.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Models\\OrdenServicio.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\OrdenServicio.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Models\\OrdenServicio.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:14:24.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrdenesServicioController.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:04:06.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdenServicioDTO.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioDTO.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T22:09:42.995Z",
+              "WhenOpened": "2026-04-03T00:16:10.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\ClientesController.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAcwAAAAAAFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Program.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Program.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T21:35:23.002Z",
+              "WhenOpened": "2026-04-02T23:52:08.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateEquipoDTO.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\CreateEquipoDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Equipo\\CreateEquipoDTO.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\CreateEquipoDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Equipo\\CreateEquipoDTO.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAA8AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T21:30:54.372Z",
+              "WhenOpened": "2026-04-02T23:48:51.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EquipoListDTO.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoListDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoListDTO.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoListDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoListDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "OrdenServicioListDTO.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T21:21:05.545Z",
+              "WhenOpened": "2026-04-02T23:41:38.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EquipoDTO.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoDTO.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "OrdenesServicioController.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAQwGMAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T21:20:53.917Z",
+              "WhenOpened": "2026-04-02T23:30:16.383Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EquiposController.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwH8AAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T21:11:31.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Helpers\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Helpers\\ApiResponse.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Helpers\\ApiResponse.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Helpers\\ApiResponse.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T01:17:08.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateClienteDTO.cs",
-              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Cliente\\CreateClienteDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Cliente\\CreateClienteDTO.cs",
-              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Cliente\\CreateClienteDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Cliente\\CreateClienteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T20:41:34.853Z"
             }
           ]
         }

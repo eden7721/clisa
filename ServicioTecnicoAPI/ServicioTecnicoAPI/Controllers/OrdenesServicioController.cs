@@ -20,12 +20,33 @@ namespace ServicioTecnicoAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<OrdenServicioListDTO>>> GetAll()
+        public async Task<ActionResult<ApiResponse<List<OrdenServicioListDTO>>>> GetAll(
+            [FromQuery] int? estadoId,
+            [FromQuery] int? equipoId,
+            [FromQuery] bool? pagado,
+            [FromQuery] int? tipoServicioId)
         {
-            var ordenes = await _context.OrdenesServicio
-                .Include(o => o.TipoServicio)
-                .Include(o => o.EstadoServicio)
-                .ToListAsync();
+            var query = _context.OrdenesServicio
+                    .Include(o => o.TipoServicio)
+                    .Include(o => o.EstadoServicio)                    
+                    .AsQueryable();
+
+            if (estadoId.HasValue)
+                query = query.Where(o => o.EstadoServicioId == estadoId.Value);
+
+            if (equipoId.HasValue)
+                query = query.Where(o => o.EquipoId == equipoId.Value);
+
+            if (pagado.HasValue)
+                query = query.Where(o => o.Pagado == pagado.Value);
+
+            if (tipoServicioId.HasValue)
+                query = query.Where(o => o.TipoServicioId == tipoServicioId.Value);
+
+
+
+
+            var ordenes = await query.ToListAsync();
 
             var ordenesDTO = ordenes.Select(o => new OrdenServicioListDTO
             {
