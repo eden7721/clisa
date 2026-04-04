@@ -1,0 +1,108 @@
+:root {
+    --font: "Montserrat", sans-serif;
+    --main-color: #fff;
+    --second-color: #28353b;
+    --third-color: #4A7183;
+    --bg-color: #061E29;
+    --bg-form-color: #103545;
+    --input-color: #11384a;
+    --box-shadow-1: -1px 8px 17px -12px #000000;
+    --box-shadow-2: -1px 8px 17px -12px #000000;
+    --gradient-color: linear-gradient(180deg, rgba(16, 53, 69, 1) 0%, rgba(7, 37, 50, 1) 100%);
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--bg-color);
+}
+
+.box-center {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 23rem;
+    height: 23rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes opacidad {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.form-login {
+    color: var(--main-color);
+    background-color: var(--bg-form-color);
+    animation: opacidad ease .4s both;
+    background: var(--gradient-color);
+    -webkit-box-shadow: var(--box-shadow-1);
+    box-shadow: var(--box-shadow-2);
+}
+
+
+.form-login input {
+    font-family: var(--font);
+    color: var(--main-color);
+}
+
+.form-login input:focus-visible {
+    outline: none;
+}
+
+.form-login legend {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+.form-login input[type="text"],
+.form-login input[type="password"] {
+    width: 80%;
+    margin: .5rem;
+    background-color: var(--input-color);
+    border: none;
+    border-radius: 1rem;
+    -webkit-box-shadow: var(--box-shadow-1);
+    box-shadow: var(--box-shadow-2);
+    padding: 1rem 1rem;
+}
+.form-login input::placeholder {
+    color: var(--third-color);
+    text-transform: uppercase;
+}
+
+.form-login input[type="button"] {
+    color: var(--third-color);
+    margin:0 1rem 1rem 0;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    align-self: flex-end;
+    cursor: pointer;
+    font-size: .7rem;
+}
+
+.form-login input[type="submit"] {
+    color: var(--main-color);
+    background-color: var(--second-color);
+    border: none;
+    width: 40%;
+    padding: 1rem 0rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-box-shadow: var(--box-shadow-1);
+    box-shadow: var(--box-shadow-2);
+}
