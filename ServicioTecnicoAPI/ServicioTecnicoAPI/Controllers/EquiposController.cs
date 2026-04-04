@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using ServicioTecnicoAPI.Data;
 using ServicioTecnicoAPI.Models;
 using ServicioTecnicoAPI.DTOs.Equipo;
+using ServicioTecnicoAPI.Helpers;
 
 namespace ServicioTecnicoAPI.Controllers
 {
@@ -37,8 +38,8 @@ namespace ServicioTecnicoAPI.Controllers
                 TipoEquipoId = e.TipoEquipoId,
                 TieneOrdenes = e.OrdenesServicio.Any(),
                 TipoEquipoNombre = e.TipoEquipo!.Nombre
-            });
-            return Ok(equiposDTO);
+            }).ToList();
+            return Ok(ApiResponse<List<EquipoListDTO>>.Success(equiposDTO));
         }
 
         [HttpGet("{id}")]
@@ -67,7 +68,7 @@ namespace ServicioTecnicoAPI.Controllers
                 NombreTipoEquipo = equipo.TipoEquipo!.Nombre,
             };
 
-            return Ok(equipoDTO);
+            return Ok(ApiResponse<EquipoDTO>.Success(equipoDTO));
         }
 
         [HttpPost]
@@ -77,7 +78,7 @@ namespace ServicioTecnicoAPI.Controllers
             var marcaExiste = await _context.Marcas.AnyAsync(c => c.Id == dto.MarcaId);
             var tipoEquipoExiste = await _context.TiposEquipo.AnyAsync(c => c.Id == dto.TipoEquipoId);
 
-            if (!clienteExiste || !marcaExiste || !tipoEquipoExiste) return BadRequest("Cliente, Marca o TipoEquipo no existe");
+            if (!clienteExiste || !marcaExiste || !tipoEquipoExiste) return BadRequest(ApiResponse<EquipoDTO>.Fail(400, "Cliente, Marca o TipoEquipo no existe"));
 
             var equipo = new Equipo()
             {
@@ -92,7 +93,7 @@ namespace ServicioTecnicoAPI.Controllers
             _context.Equipos.Add(equipo);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetById), new { id = equipo.Id}, new {id = equipo.Id});
+            return CreatedAtAction(nameof(GetById), new { id = equipo.Id}, ApiResponse<CreateEquipoDTO>.Created(dto));
         }
 
         [HttpPut("{id}")]
@@ -105,13 +106,13 @@ namespace ServicioTecnicoAPI.Controllers
                 .Include(e => e.OrdenesServicio)
                 .FirstOrDefaultAsync();
 
-            if (equipo == null) return NotFound();
+            if (equipo == null) return NotFound(ApiResponse<EquipoDTO>.Fail(404, "Equipo no encontrado"));
 
             var clienteExiste = await _context.Clientes.AnyAsync(c => c.Id == dto.ClienteId);
             var marcaExiste = await _context.Marcas.AnyAsync(m => m.Id == dto.MarcaId);
             var tipoExiste = await _context.TiposEquipo.AnyAsync(t => t.Id == dto.TipoEquipoId);
 
-            if (!clienteExiste || !marcaExiste || !tipoExiste) return BadRequest("Cliente, Marca o TipoEquipo no existe.");
+            if (!clienteExiste || !marcaExiste || !tipoExiste) return BadRequest(ApiResponse<EquipoDTO>.Fail(400, "Cliente, Marca o TipoEquipo no existe."));
 
             equipo.Modelo = dto.Modelo;
             equipo.NumeroSerie = dto.NumeroSerie;
@@ -122,21 +123,7 @@ namespace ServicioTecnicoAPI.Controllers
 
             await _context.SaveChangesAsync();
 
-            var equipoDTO = new EquipoDTO()
-            {
-                Id = equipo.Id,
-                Modelo = equipo.Modelo,
-                NumeroSerie = equipo.NumeroSerie,
-                Detalles = equipo.Detalles,
-                ClienteId = equipo.ClienteId,
-                NombreCliente = $"{equipo.Cliente!.Nombre} {equipo.Cliente.Apellido}",
-                MarcaId = equipo.MarcaId,
-                NombreMarca = equipo.Marca!.Nombre,
-                TipoEquipoId = equipo.TipoEquipoId,
-                NombreTipoEquipo = equipo.TipoEquipo!.Nombre,
-            };
-
-            return Ok(equipoDTO);
+            return Ok(ApiResponse<CreateEquipoDTO>.Success(dto, "cliente modificado exitosamente"));
                 
         }
 
@@ -149,7 +136,7 @@ namespace ServicioTecnicoAPI.Controllers
 
             _context.Equipos.Remove(equipo);
             await _context.SaveChangesAsync();
-            return NoContent();
+            return Ok(ApiResponse<Object>.Success(null!, "Equipo eliminado"));
 
         }
     }

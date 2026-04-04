@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj": {}
+    "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj": {
+    "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj",
+        "projectUniqueName": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj",
         "projectName": "ServicioTecnicoAPI",
-        "projectPath": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj",
-        "packagesPath": "C:\\Users\\Adan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\obj\\",
+        "projectPath": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj",
+        "packagesPath": "C:\\Users\\ADAN\\.nuget\\packages\\",
+        "outputPath": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Adan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ADAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,17 +48,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[10.0.4, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[10.0.4, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.4, )"
+              "version": "[10.0.5, )"
             }
           },
           "imports": [

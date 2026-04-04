@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ServicioTecnicoAPI.Data;
 using ServicioTecnicoAPI.DTOs.Cliente;
+using ServicioTecnicoAPI.Helpers;
 using ServicioTecnicoAPI.Models;
 
 namespace ServicioTecnicoAPI.Controllers
@@ -34,7 +35,7 @@ namespace ServicioTecnicoAPI.Controllers
                 TieneEquipos = c.Equipos.Any()
             }).ToList();
 
-            return Ok(clientesDTO);
+            return Ok(ApiResponse<List<ClienteDTO>>.Success(clientesDTO));
         }
 
         //GET{id}
@@ -44,7 +45,7 @@ namespace ServicioTecnicoAPI.Controllers
             var cliente = await _context.Clientes
                 .Include(c => c.Equipos)
                 .FirstOrDefaultAsync(c => c.Id == id);
-            if (cliente == null) return NotFound();
+            if (cliente == null) return NotFound(ApiResponse<ClienteDTO>.Fail(404, "Cliente no econtrado"));
 
             var clienteDTO = new ClienteDTO()
             {
@@ -56,7 +57,7 @@ namespace ServicioTecnicoAPI.Controllers
                 TieneEquipos = cliente.Equipos.Any()
             };
 
-            return Ok(clienteDTO);
+            return Ok(ApiResponse<ClienteDTO>.Success(clienteDTO));
         }
 
         //POST
@@ -84,7 +85,8 @@ namespace ServicioTecnicoAPI.Controllers
                 TieneEquipos = false
             };
 
-            return CreatedAtAction(nameof(GetById), new { id = cliente.Id }, clienteDTO);
+            return CreatedAtAction(nameof(GetById), new {id = cliente.Id},
+                 ApiResponse<ClienteDTO>.Created(clienteDTO));
         }
 
         //PUT
@@ -95,7 +97,7 @@ namespace ServicioTecnicoAPI.Controllers
                 .Include(c => c.Equipos)
                 .FirstOrDefaultAsync();
 
-            if (cliente == null) return NotFound();
+            if (cliente == null) return NotFound(ApiResponse<ClienteDTO>.Fail(404, "Cliente no encontrado"));
 
             cliente.Nombre = dto.Nombre;
             cliente.Apellido = dto.Apellido;
@@ -114,7 +116,7 @@ namespace ServicioTecnicoAPI.Controllers
                 TieneEquipos = cliente.Equipos.Any()
             };
 
-            return Ok(clienteDTO);
+            return Ok(ApiResponse<ClienteDTO>.Success(clienteDTO, "Cliente actualizado exitosamente"));
         }
 
         [HttpDelete("{id}")]
@@ -126,7 +128,7 @@ namespace ServicioTecnicoAPI.Controllers
 
             _context.Clientes.Remove(cliente);
             await _context.SaveChangesAsync();
-            return NoContent();
+            return Ok(ApiResponse<Object>.Success(null!, "Cliente eliminado exitosamente"));
         }
 
 

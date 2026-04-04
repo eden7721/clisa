@@ -1,86 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\",
+  "WorkspaceRootPath": "D:\\Clisa\\ServicioTecnicoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\equipo\\equipolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\equipo\\equipolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\equipo\\equipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\equipo\\equipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\createordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\createordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\updaterecojoordendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\updaterecojoordendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\updatepagoordendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\updatepagoordendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\updateestadoordendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\updateestadoordendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\models\\estadoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\models\\estadoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\ordenesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\ordenesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\controllers\\ordenesserviciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\createordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\createordenserviciodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\models\\ordenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\models\\ordenservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\ordenservicio\\ordenserviciolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\controllers\\tiposequipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\controllers\\tiposequipocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\cliente\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\cliente\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\equipo\\createequipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\equipo\\createequipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|c:\\users\\adan\\desktop\\developer\\fundamentos-csharp\\serviciotecnicoapi\\serviciotecnicoapi\\dtos\\cliente\\createclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\dtos\\cliente\\createclientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|d:\\clisa\\serviciotecnicoapi\\serviciotecnicoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6C11F2A-5A3A-54AE-BB48-9FE523D8E996}|ServicioTecnicoAPI\\ServicioTecnicoAPI.csproj|solutionrelative:serviciotecnicoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,265 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EquipoListDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoListDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoListDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoListDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoListDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Title": "EquiposController.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAIwH8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T02:00:35.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrdenServicioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T20:46:26.876Z",
+              "WhenOpened": "2026-04-03T00:19:10.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrdenServicioListDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T20:25:53.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdatePagoOrdenDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdatePagoOrdenDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdatePagoOrdenDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdatePagoOrdenDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdatePagoOrdenDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T00:55:04.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateRecojoOrdenDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdateRecojoOrdenDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdateRecojoOrdenDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdateRecojoOrdenDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdateRecojoOrdenDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T00:54:23.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "CreateOrdenServicioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
               "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
               "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\CreateOrdenServicioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T20:26:19.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EquiposController.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\EquiposController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAcwCcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T00:33:33.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\Cliente.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Models\\Cliente.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T00:56:32.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EquipoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Equipo\\EquipoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T00:23:45.717Z",
+              "WhenOpened": "2026-04-03T00:16:10.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Equipo.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\Equipo.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Models\\Equipo.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\Equipo.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Models\\Equipo.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Program.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Program.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T02:07:29.074Z",
+              "WhenOpened": "2026-04-02T23:52:08.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateEstadoOrdenDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdateEstadoOrdenDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdateEstadoOrdenDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdateEstadoOrdenDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\UpdateEstadoOrdenDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T00:53:24.605Z",
+              "WhenOpened": "2026-04-02T23:48:51.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EstadoServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\EstadoServicio.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Models\\EstadoServicio.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\EstadoServicio.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Models\\EstadoServicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "OrdenServicioListDTO.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
+              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
+              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\OrdenServicio\\OrdenServicioListDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T01:49:27.253Z",
+              "WhenOpened": "2026-04-02T23:41:38.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "OrdenesServicioController.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
+              "DocumentMoniker": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
               "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
+              "ToolTip": "D:\\Clisa\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
               "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\OrdenesServicioController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAuwGIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAQwGMAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T21:28:59.24Z",
+              "WhenOpened": "2026-04-02T23:30:16.383Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAkwIAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T23:50:40.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrdenServicio.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\OrdenServicio.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Models\\OrdenServicio.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\OrdenServicio.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Models\\OrdenServicio.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T21:50:10.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TiposEquipoController.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\TiposEquipoController.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Controllers\\TiposEquipoController.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Controllers\\TiposEquipoController.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Controllers\\TiposEquipoController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T21:46:06.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ClienteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Cliente\\ClienteDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Cliente\\ClienteDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Cliente\\ClienteDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Cliente\\ClienteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T23:43:34.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Marca.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\Marca.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\Models\\Marca.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\Models\\Marca.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\Models\\Marca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T21:24:57.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreateClienteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Cliente\\CreateClienteDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Cliente\\CreateClienteDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Cliente\\CreateClienteDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Cliente\\CreateClienteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T23:47:35.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CreateEquipoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\CreateEquipoDTO.cs",
-              "RelativeDocumentMoniker": "ServicioTecnicoAPI\\DTOs\\Equipo\\CreateEquipoDTO.cs",
-              "ToolTip": "C:\\Users\\Adan\\Desktop\\developer\\fundamentos-csharp\\ServicioTecnicoAPI\\ServicioTecnicoAPI\\DTOs\\Equipo\\CreateEquipoDTO.cs",
-              "RelativeToolTip": "ServicioTecnicoAPI\\DTOs\\Equipo\\CreateEquipoDTO.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T00:27:42.927Z"
             }
           ]
         }

@@ -4,6 +4,7 @@ using ServicioTecnicoAPI.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServicioTecnicoAPI.DTOs.OrdenServicio;
+using ServicioTecnicoAPI.Helpers;
 
 namespace ServicioTecnicoAPI.Controllers
 {
@@ -38,7 +39,7 @@ namespace ServicioTecnicoAPI.Controllers
                 EstadoServicioId = o.EstadoServicioId
             }).ToList();
 
-            return Ok(ordenesDTO);
+            return Ok(ApiResponse<List<OrdenServicioListDTO>>.Success(ordenesDTO));
         }
 
         [HttpGet("{id}")]
@@ -53,7 +54,7 @@ namespace ServicioTecnicoAPI.Controllers
                 .Include(o => o.EstadoServicio)
                 .FirstOrDefaultAsync(o => o.Id == id);
 
-            if (orden == null) return NotFound();
+            if (orden == null) return NotFound(ApiResponse<OrdenServicioDTO>.Fail(404, "Orden de servicio no encontrado"));
 
             var ordenDTO = new OrdenServicioDTO
             {
@@ -71,7 +72,7 @@ namespace ServicioTecnicoAPI.Controllers
                 NombreEstadoServicio = orden.EstadoServicio!.Estado
             };
 
-            return Ok(ordenDTO);
+            return Ok(ApiResponse<OrdenServicioDTO>.Success(ordenDTO));
         }
 
         [HttpPost]
@@ -80,7 +81,7 @@ namespace ServicioTecnicoAPI.Controllers
             var equipoExiste = await _context.Equipos.AnyAsync(e => e.Id == dto.EquipoId);
             var tipoServicioExiste = await _context.TiposServicio.AnyAsync(t => t.Id == dto.TipoServicioId);
 
-            if (!equipoExiste || !tipoServicioExiste) return BadRequest("Equipo, TipoServicio no existen.");
+            if (!equipoExiste || !tipoServicioExiste) return BadRequest(ApiResponse<OrdenServicioDTO>.Fail(400, "Equipo, TipoServicio no existen."));
 
             var orden = new OrdenServicio
             {
@@ -93,10 +94,10 @@ namespace ServicioTecnicoAPI.Controllers
                 TipoServicioId = dto.TipoServicioId,
                 EstadoServicioId = 1
             };
-
             _context.OrdenesServicio.Add(orden);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetById), new { id = orden.Id }, new { id = orden.Id});
+
+            return CreatedAtAction(nameof(GetById), new { id = orden.Id }, ApiResponse<CreateOrdenServicioDTO>.Success(dto));
         }
 
         [HttpPut("{id}")]
@@ -111,12 +112,12 @@ namespace ServicioTecnicoAPI.Controllers
                 .Include(o => o.EstadoServicio)
                 .FirstOrDefaultAsync(o => o.Id == id);
 
-            if (orden == null) return NotFound();
+            if (orden == null) return NotFound(ApiResponse<OrdenServicioDTO>.Fail(404, "Orden de servicio no encontrado"));
 
             var equipoExiste = await _context.Equipos.AnyAsync(e => e.Id == dto.EquipoId);
             var tipoServicioExiste = await _context.TiposServicio.AnyAsync(t => t.Id == dto.TipoServicioId);
 
-            if (!equipoExiste || !tipoServicioExiste) return BadRequest("Equipo, TipoServicio o Estado no existen");
+            if (!equipoExiste || !tipoServicioExiste) return BadRequest(ApiResponse<OrdenServicioDTO>.Fail(400, "Equipo, TipoServicio o Estado no existen"));
 
             orden.Precio = dto.Precio;
             orden.Diagnostico = dto.Diagnostico;
@@ -125,24 +126,9 @@ namespace ServicioTecnicoAPI.Controllers
             orden.EquipoId = dto.EquipoId;
             orden.TipoServicioId = dto.TipoServicioId;
 
+            
             await _context.SaveChangesAsync();
-
-            var ordenDTO = new OrdenServicioDTO
-            {
-                Id = orden.Id,
-                Precio = orden.Precio,
-                Diagnostico = orden.Diagnostico,
-                Observaciones = orden.Observaciones,
-                Pagado = orden.Pagado,
-                FechaIngreso = orden.FechaIngreso,
-                FechaRecojo = orden.FechaRecojo,
-                ModeloEquipo = orden.Equipo!.Modelo,
-                NombreMarca = orden.Equipo.Marca!.Nombre,
-                NombreTipoEquipo = orden.Equipo.TipoEquipo!.Nombre,
-                NombreEstadoServicio = orden.EstadoServicio!.Estado,
-                NombreTipoServicio = orden.TipoServicio!.Servicio
-            };
-            return Ok(ordenDTO);
+            return Ok(ApiResponse<CreateOrdenServicioDTO>.Success(dto));
         }
 
         [HttpPatch("{id}/estado")]
@@ -150,15 +136,15 @@ namespace ServicioTecnicoAPI.Controllers
         {
             var orden = await _context.OrdenesServicio.FindAsync(id);
 
-            if (orden == null) return NotFound();
+            if (orden == null) return NotFound(ApiResponse<Object>.Fail(404, "Orden de servicio no encontrado"));
 
             var estadoExiste = await _context.EstadosServicio.AnyAsync(e => e.Id == dto.EstadoServicioId);
 
-            if (!estadoExiste) return BadRequest("EstadoServicio no existe");
+            if (!estadoExiste) return BadRequest(ApiResponse<Object>.Fail(400, "EstadoServicio no existe"));
 
             orden.EstadoServicioId = dto.EstadoServicioId;
             await _context.SaveChangesAsync();
-            return NoContent();
+            return Ok(ApiResponse<Object>.Success(null!));
         }
 
         [HttpPatch("{id}/recojo")]
@@ -166,11 +152,11 @@ namespace ServicioTecnicoAPI.Controllers
         {
             var orden = await _context.OrdenesServicio.FindAsync(id);
 
-            if (orden == null) return NotFound();
+            if (orden == null) return NotFound(ApiResponse<Object>.Fail(404, "Orden de servicio no encontrado"));
 
             orden.FechaRecojo = DateTime.Now;
             await _context.SaveChangesAsync();
-            return NoContent();
+            return Ok(ApiResponse<Object>.Success(null!));
         }
 
         [HttpPatch("{id}/pago")]
@@ -178,11 +164,11 @@ namespace ServicioTecnicoAPI.Controllers
         {
             var orden = await _context.OrdenesServicio.FindAsync(id);
 
-            if (orden == null) return NotFound();
+            if (orden == null) return NotFound(ApiResponse<Object>.Fail(404, "Orden de servicio no encontrado."));
 
             orden.Pagado = dto.Pagado;
             await _context.SaveChangesAsync();
-            return NoContent();
+            return Ok(ApiResponse<Object>.Success(null!));
         }
 
         [HttpDelete("{id}")]
@@ -190,11 +176,11 @@ namespace ServicioTecnicoAPI.Controllers
         {
             var orden = await _context.OrdenesServicio.FindAsync(id);
 
-            if (orden == null) return NotFound();
+            if (orden == null) return NotFound(ApiResponse<Object>.Fail(404, "Orden de servicio no encontrado"));
 
             _context.OrdenesServicio.Remove(orden);
             await _context.SaveChangesAsync();
-            return NoContent();
+            return Ok(ApiResponse<Object>.Success(null!));
         }
     }
 }
